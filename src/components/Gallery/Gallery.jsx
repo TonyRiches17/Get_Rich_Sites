@@ -1,52 +1,13 @@
-// import "./Gallery.css";
-// import Cards from "../Cards/Cards";
-
-// function Gallery() {
-//   return (
-//     <div className="gallery">
-//       <h1 className="gallery__title">Gallery</h1>
-//       <form className="gallery__form">
-//         <label htmlFor="sort" className="gallery__form-label">
-//           Sort
-//           <select name="" id="" className="gallery__form-select">
-//             <option></option>
-//             <option>Title</option>
-//             <option>Type</option>
-//             <option>Location</option>
-//             <option>Description</option>
-//             <option>URL</option>
-//           </select>
-//         </label>
-//         <label htmlFor="search" className="gallery__form-label">
-//           Search
-//           <input
-//             id="search"
-//             placeholder="Search"
-//             type="text"
-//             className="gallery__form-input"
-//           />
-//         </label>
-//         <button type="button" className="gallery__form-button">Go
-//           <div className="gallery__form-button-square"></div>
-//         </button>
-//       </form>
-//       <Cards />
-//     </div>
-//   );
-// }
-
-// export default Gallery;
-
 import { useState } from "react";
 import "./Gallery.css";
 import Cards from "../Cards/Cards";
 
 function Gallery() {
-  const [sortField, setSortField] = useState("");   // which field to sort/filter on
-  const [searchQuery, setSearchQuery] = useState(""); // search input
+  const [sortField, setSortField] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
 
   const handleSortChange = (e) => {
-    setSortField(e.target.value.toLowerCase()); // normalize field name
+    setSortField(e.target.value.toLowerCase());
   };
 
   const handleSearchChange = (e) => {

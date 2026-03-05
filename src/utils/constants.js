@@ -6,6 +6,7 @@ import sao from "../assets/sao.png";
 import greenfindr from "../assets/greenfindr.png";
 import newsexplorer from "../assets/newsexplorer.png";
 import cluxnails from "../assets/cluxnails.png";
+import stjohns from "../assets/stjohns.png";
 
 export const cardInfo = [
   {
@@ -80,4 +81,14 @@ export const cardInfo = [
     url: "https://cluxnails.netlify.app/",
     image: cluxnails,
   },
+  {
+    id: 8,
+    title: "St. John's AME Church",
+    type: "Other",
+    location: "Location: Atlanta, GA",
+    description: "This is the official website of St. John's AME Church",
+    url: "https://stjohnsame.netlify.app/",
+    image: stjohns,
+  },
+
 ]

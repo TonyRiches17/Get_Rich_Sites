@@ -1,0 +1,21 @@
+.bio {
+  padding: 50px 200px;
+}
+
+.bio__image {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bio__name {
+  font-size: 50px;
+  color: #31DA31;
+  margin: 0;
+}
+
+.bio__text {
+  font-size: 25px;
+  color: #31DA31;
+  margin: 0;
+}
