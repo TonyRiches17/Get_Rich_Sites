@@ -1,0 +1,40 @@
+.header {
+  border-bottom: 1px solid #31DA31;
+  max-width: 100vw;
+  height: 400px;
+  background-image: url("../../assets/logo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: 15%;
+  background-position-y: 58%;
+  overflow: hidden;
+}
+
+.header__image {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1700px) {
+  .header {
+    background-size: contain;
+    background-repeat: repeat;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    background-size: 150%;
+    background-position-x: 45%;
+
+  }
+}
+
+@media (max-width: 450px) {
+  .header {
+    height: 200px;
+    background-size: 150%;
+    background-position-x: 45%;
+
+  }
+}

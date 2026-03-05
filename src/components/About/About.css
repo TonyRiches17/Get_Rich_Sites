@@ -1,0 +1,15 @@
+.about {
+  padding: 0 70px 0;
+}
+
+.about__title {
+  color: #31DA31;
+  font-size: 75px;
+  padding: 0;
+  margin: 0;
+}
+
+.about__text {
+  color: #31DA31;
+  font-size: 25px;
+}

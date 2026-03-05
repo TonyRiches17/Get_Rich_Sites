@@ -1,0 +1,46 @@
+.footer {
+  border-top: 1px solid #31DA31;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-top: 20px;
+}
+
+.footer__container {
+  display: flex;
+  gap: 10em;
+  justify-content: center;
+  color: #FFD700;
+}
+
+.footer__email {
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social {
+  display: flex;
+  gap: 7px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__social-image {
+  cursor: pointer;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.footer__copyright {
+  padding: 0;
+  margin: 0;
+  color: #FFD700;
+}
+
+@media screen and (max-width: 500px) {
+  .footer__container {
+    flex-direction: column;
+    gap:2px;
+  }
+}

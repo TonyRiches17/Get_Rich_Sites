@@ -1,0 +1,29 @@
+.navbar__container {
+  border-bottom: 1px solid #31DA31;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar__link {
+  width: 175px;
+  text-decoration: none;
+  border: 2px solid #FFD700;
+  border-radius: 1px 10px;
+  cursor: pointer;
+  font-size: 25px;
+  padding: 6px;
+  background-color: #000;
+  color: #FFD700;
+  transition: background-color .4s linear;
+}
+
+.navbar__link:hover {
+  background-color: #31da31b0;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
