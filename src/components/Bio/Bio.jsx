@@ -11,10 +11,10 @@ function Bio() {
         later, in 2008, he relocated to Atlanta, GA. Shortly after, he began a career in Law Enforcement. For about
         14 years, he had worked in that capacity, forming and shaping new processes and proceedures through the use
         of technology and software applications using Microsoft Excel and VBA. During this tenure he attended
-        TripleTen&apos;s Software Engineering program and began developing applications utilizing HTML, CSS, React, and
-        JavaScript. Since then, he has accelerated his learning and development by entering into deployment spaces
-        and delved into MongoDB, Docker, PostgreSQL, Node.js, Express.js, Firebase, GCP, AWS, and Netlify. With
-        a yearning for expanding his knowledge on all things developement, the sky is the limit.
+        TripleTen&apos;s Software Engineering program and began developing applications utilizing <span className="bio__emboss"> HTML</span>, <span className="bio__emboss">CSS</span>, <span className="bio__emboss">React</span>, and <span className="bio__emboss">JavaScript</span>.
+           Since then, he has accelerated his learning and development by entering into deployment spaces
+        and delved into <span className="bio__emboss">MongoDB</span>, <span className="bio__emboss">Docker</span>, <span className="bio__emboss">PostgreSQL</span>, <span className="bio__emboss">Node.js</span>, <span className="bio__emboss">Express.js</span>, <span className="bio__emboss">Firebase</span>, <span className="bio__emboss">GCP</span>, <span className="bio__emboss">AWS</span>, and <span className="bio__emboss">Netlify</span>. With a yearning for expanding his knowledge on
+           all things developement, the sky is the limit.
       </p>
     </div>
   )

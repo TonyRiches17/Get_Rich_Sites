@@ -3,9 +3,9 @@
 }
 
 .bio__image {
-  height: 300px;
-  width: 300px;
-  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+  border-radius: 1px 10px;
 }
 
 .bio__name {
@@ -18,4 +18,10 @@
   font-size: 25px;
   color: #31DA31;
   margin: 0;
+}
+
+.bio__emboss {
+  background-color: #FFD700;
+  border-radius: 1px 10px;
+  color: #000;
 }

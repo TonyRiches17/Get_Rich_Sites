@@ -66,16 +66,22 @@
 }
 
 .card__technologies {
-  width: 400px;
-  height: 350px;
-  background-color: rgba(0, 0, 0, .8);
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, .9);
+  padding: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .3s linear;
+}
+
+.card__technologies:hover {
+  opacity: 1;
 }
 
 .card__technology {
