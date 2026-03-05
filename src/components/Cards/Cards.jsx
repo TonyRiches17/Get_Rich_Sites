@@ -72,6 +72,13 @@ function Cards({ sortField, searchQuery }) {
             <p className="card__description">{item.description}</p>
             <p className="card__url">{item.url}</p>
           </div>
+          <div className="card__technologies">
+            <div className="card__technology">
+              {item.technologies.map((tech, index) => (
+                <p className="card__tech" key={index}>{tech}</p>
+              ))}
+            </div>
+          </div>
         </div>
       ))}
     </div>

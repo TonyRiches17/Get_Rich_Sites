@@ -17,6 +17,7 @@ export const cardInfo = [
     description: "This is a website for an Esthetician and Beautician, serving all beauty needs",
     url: "https://theesthiecorner.netlify.app",
     image: theesthiecorner,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "DNS", "3rd Party Integration", "Videos"],
   },
   {
     id: 1,
@@ -26,6 +27,7 @@ export const cardInfo = [
     description: "This is a TripleTen project featuring a social media website, used to post and label pictures",
     url: "https://tonyriches17.github.io/se_project_spots/",
     image: spots,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "APIs"],
   },
   {
     id: 2,
@@ -35,6 +37,7 @@ export const cardInfo = [
     description: "This is a Video Production company, specializing in whatever video needs you can conceive of",
     url: "https://www.innercityproductions.com",
     image: innercityproductions,
+    technologies: ["HTML"],
   },
   {
     id: 3,
@@ -44,6 +47,7 @@ export const cardInfo = [
     description: "This is a TripleTen project that helps you determine what to wear based on your location's weather",
     url: "https://what2wear.minecraftnoob.com",
     image: what2wear,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "MongoDB", "Express", "Node.js", "GCP", "APIs"],
   },
   {
     id: 4,
@@ -53,6 +57,7 @@ export const cardInfo = [
     description: "This is a website that empowers employees to stand against oppressive leadership",
     url: "https://stand-against-oppression.netlify.app",
     image: sao,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React"],
   },
   {
     id: 5,
@@ -62,6 +67,7 @@ export const cardInfo = [
     description: "This is an extracurricular project that assists you in finding green spaces in your area",
     url: "https://www.greenfindr.us",
     image: greenfindr,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "OAuth", "Firebase", "Vercel", "APIs"],
   },
   {
     id: 6,
@@ -71,6 +77,7 @@ export const cardInfo = [
     description: "This is a TripleTen project that allows you to search for News articles, and save them to your profile",
     url: "https://richnewsexplorer.netlify.app/",
     image: newsexplorer,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "Authentication", "Authorization", "APIs"],
   },
   {
     id: 7,
@@ -80,6 +87,7 @@ export const cardInfo = [
     description: "This is a website for a nail technician, ready to serve your manicuring needs",
     url: "https://cluxnails.netlify.app/",
     image: cluxnails,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "Form Submission"],
   },
   {
     id: 8,
@@ -89,6 +97,7 @@ export const cardInfo = [
     description: "This is the official website of St. John's AME Church",
     url: "https://stjohnsame.netlify.app/",
     image: stjohns,
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design", "React", "Form Submission"],
   },
 
 ]

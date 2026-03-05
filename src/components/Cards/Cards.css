@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   color: #31DA31;
-  border: 1px solid #F00;
   border: 2px solid #FFD700;
   border-radius: 10px;
   background-color: #000;
@@ -18,6 +17,7 @@
   overflow: hidden;
   transition: box-shadow .5s linear;
   cursor: pointer;
+  position: relative;
 }
 
 .card__container:hover {
@@ -63,4 +63,42 @@
 .card__url {
   margin: 0;
   padding: 0;
+}
+
+.card__technologies {
+  width: 400px;
+  height: 350px;
+  background-color: rgba(0, 0, 0, .8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__technology {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px 40px;
+}
+
+.card__tech {
+  width: max-content;
+  font-size: 20px;
+  border: 1px solid #FFD700 ;
+  border-radius: 1px 10px;
+  background-color: #000;
+  color: #31DA31;
+  padding: 0 5px;
+  transform: scale(1, 1);
+  transition: transform .1s ease-in-out;
+}
+
+.card__tech:hover {
+  transform: scale(1.05, 1.05);
 }
