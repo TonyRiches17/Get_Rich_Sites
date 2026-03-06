@@ -6,6 +6,7 @@ import About from "../About/About";
 import Bio from "../Bio/Bio";
 import Gallery from "../Gallery/Gallery";
 import Footer from "../Footer/Footer";
+import Scroll from "../Scroll/Scroll";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/bio" element={<Bio />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      <Scroll />
       <Footer />
     </>
   );
