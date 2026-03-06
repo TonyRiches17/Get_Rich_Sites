@@ -1,5 +1,8 @@
 .bio {
-  padding: 50px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 70px;
 }
 
 .bio__image {
@@ -24,4 +27,15 @@
   background-color: #FFD700;
   border-radius: 1px 10px;
   color: #000;
+}
+
+@media screen and (max-width: 500px) {
+  .bio__image {
+    width: 275px;
+    height: 275px;
+  }
+
+  .bio__text {
+    font-size: 17px;
+  }
 }

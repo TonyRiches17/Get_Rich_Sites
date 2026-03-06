@@ -5,7 +5,7 @@ function Bio() {
   return(
     <div className="bio">
       <img src={profilepic} alt="Picture of developer" className="bio__image" />
-      <h3 className="bio__name">Rich</h3>
+      <h3 className="bio__name">Ri¢h</h3>
       <p className="bio__text">Originally born and raised in Michigan. Took a liking to computers and programming
         at an early age. One of the first attempts at coding was making custom games on the TI-82 calculator. Years
         later, in 2008, he relocated to Atlanta, GA. Shortly after, he began a career in Law Enforcement. For about
