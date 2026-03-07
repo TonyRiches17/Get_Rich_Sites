@@ -9,7 +9,7 @@ function Bio() {
       <p className="bio__text">Originally born and raised in Michigan. Took a liking to computers and programming
         at an early age. One of the first attempts at coding was making custom games on the TI-82 calculator. Years
         later, in 2008, he relocated to Atlanta, GA. Shortly after, he began a career in Law Enforcement. For about
-        14 years, he had worked in that capacity, forming and shaping new processes and proceedures through the use
+        14 years, he had worked in that capacity, forming and shaping new processes and procedures through the use
         of technology and software applications using Microsoft Excel and VBA. During this tenure he attended
         TripleTen&apos;s Software Engineering program and began developing applications utilizing <span className="bio__emboss"> HTML</span>, <span className="bio__emboss">CSS</span>, <span className="bio__emboss">React</span>, and <span className="bio__emboss">JavaScript</span>.
            Since then, he has accelerated his learning and development by entering into deployment spaces
